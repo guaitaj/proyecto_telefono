@@ -1,0 +1,125 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+body {
+	background-color: white;
+	font-family: sans-serif;
+}
+
+
+.telefono {
+    margin-left: 50px;
+	display: inline-flex;
+	width: 200px;
+	height: 200px;
+	background-color: #0698DF;
+	margin-top: 25px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 0.5px 0.5px;
+
+
+}
+
+.telefono:hover {
+	background-color: #92BBCF;
+
+}
+
+.box {
+	margin: 30px;
+	text-align: center;
+}
+
+#cuadro_principal {
+	text-align: center;
+}
+
+#h {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+#text_samsung {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#s_sol {
+
+	margin-top: 130px;
+}
+#pj2 {
+	margin-left: 20px;
+	margin-top: 110px;
+}
+
+
+
+#pj2p {
+	margin-top: 110px;
+}
+#pj5 {
+	margin-top: 110px;
+}
+#pj5p {
+	margin-top: 110px;
+}
+#pj7 {
+	margin-top: 110px;
+}
+#pj7p {
+	margin-top: 110px;
+}
+
+#tasa {
+	width: 230px;
+	height: 25px;
+}
+
+#tss7{
+	margin-top: 110px;
+}
+#tss8{
+	margin-top: 125px;
+	margin-left: 30px;
+}
+#tss8p{
+	margin-top: 110px;
+}
+#tsnote8{
+	margin-top: 120px;
+}
+
+#p9lite{
+	margin-top: 110px;
+}
+#p10lite{
+	margin-top: 110px;
+}
+
+#login ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+#login {
+	background-color: beige;
+}
+
+#sociales {
+	position: absolute;
+	cursor: pointer;
+}
+
+#log {
+	margin-left: 800px;
+}
+
+.soc {
+	margin: 5px;
+	width: 30px;
+}
