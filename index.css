@@ -194,15 +194,52 @@ body {
 /* PARA CUANDO LA PANTALLA ES MENOR A 100PX DE ANCHO */
 
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 1200px) {
 
 .telefono {
-	width: 90%;
-	margin-left: 5%;
+	margin-left: 4.5%;
+	width: 27%;
 	margin-bottom: 10px;
 
 
 }
+
+
+@media only screen and (max-width: 900px) {
+
+.telefono {
+	margin-left: 5%;
+	width: 42%;
+	margin-bottom: 10px;
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+.telefono {
+	margin-left: 5%;
+	width: 90%;
+	margin-bottom: 10px;
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+.telefono {
+	margin-left: 5%;
+	width: 90%;
+	margin-bottom: 10px;
+
+
+}
+
+
 
 
 
