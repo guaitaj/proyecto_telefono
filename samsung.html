@@ -8,11 +8,14 @@
 <body>
 
 <div id=contenedor_ppal>
+
 	<h1 id="text_samsung">SAMSUNG</h1>
 
 	<div id="j1" class="telefono">
 
 		<div class="img_box">
+			<img src="j2.png" height="150px" width="150px" id="iki">
+
 
 		</div>
 
@@ -22,11 +25,11 @@
 		</div>
 
 		<div class="precio_box">
-			<p class="text_precio"> 250.000</p>
+			<p class="text_precio" id="yey"> 250.000</p>
 		</div>
 
-		<div class="info_box">
-			<p class="informacion"> Descripcion</p>
+		<div class="info_box" id="ve">
+			<p class="informacion" onclick="alerta()"> Descripcion</p>
 		</div>
 
 	</div>
@@ -37,7 +40,7 @@
 		</div>
 
 		<div class="nombre_box">
-			<p class="text_nombre"> samsung j2</p>
+			<p class="text_nombre"> samsung j5 prime</p>
 			
 		</div>
 
@@ -46,7 +49,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="informacion"> descripcion</p>
+			<p class="informacion" onclick="alerta2()"> descripcion</p>
 		</div>
 	</div>
 
@@ -56,7 +59,7 @@
 		</div>
 
 		<div class="nombre_box">
-			<p class="text_nombre"> samsung j2</p>
+			<p class="text_nombre"> samsung j7 prime</p>
 		</div>
 
 		<div class="precio_box">
@@ -64,7 +67,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion"> Descripcion</p>
+			<p class="descripcion" onclick="alerta3()"> Descripcion</p>
 		</div>
 	</div>
 
@@ -216,7 +219,30 @@
 
 
 
+
+
 <script>
+
+
+
+
+	function alerta(){
+	  window.open("j22.jpg");
+	}
+
+	function alerta2(){
+	  window.open("j5prime.jpg");
+	}
+
+	function alerta3(){
+	  window.open("j7prime.jpg");
+	}
+
+
+
+
+
+
 
 	
 
@@ -240,7 +266,7 @@ var s_note8 	= 1000;
 		
 var tasa = document.getElementById('tasa').value = 230000;
 
-document.getElementById('s_sol').innerHTML = (tasa*s_ssol) +" "+ "BSF";
+document.getElementById('yey').innerHTML = (tasa*s_ssol) +" "+ "BSF";
 
 document.getElementById('pj2').innerHTML = (tasa*s_express)+" "+ "BSF";
 document.getElementById('pj2p').innerHTML = (tasa*s_j2p) +" "+ "BSF";
