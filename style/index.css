@@ -76,11 +76,18 @@ body {
 	background-color: grey;
 	border-radius: 5px;
 	padding: 5px;
+	cursor: pointer;
+
 
 
 }
 
 .info_box p{
+ color: #fff;
+}
+
+.info_box span{
+ font-size: 13px;
  color: #fff;
 }
 .info_box:hover {
@@ -194,8 +201,25 @@ body {
 	margin-left: 20%;
 }
 
+.overlay-content {
+    position: relative;
+    top: 20%;
+    width: 80%;
+    height: 500px; /*CAMBIAR A AUTO CUANDO SE META CONTENIDO */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid red;
+}
 
-
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
 
 
 
@@ -263,14 +287,6 @@ body {
     margin-top: 30px;
 }
 
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
 
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
