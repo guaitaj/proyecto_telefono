@@ -1,20 +1,22 @@
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="estilos.css">
 <link rel="stylesheet" type="text/css" href="index.css">
 <meta charset="utf-8">
 <html>
 <head>
-	<title>SAMSUNG</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 
-<div id=contenedor_ppal>
+	<div id=contenedor_ppal>
 
 	<h1 id="text_samsung">SAMSUNG</h1>
 
 	<div id="j1" class="telefono">
 
-		<div class="img_box">
-			<img src="j2.png" height="150px" width="150px" id="iki">
+		<div id="hh" class="img_box">
+			 <img src="j2.png"; width="130px" height="160px">
 
 
 		</div>
@@ -29,8 +31,12 @@
 		</div>
 
 		<div class="info_box" id="ve">
-			<p class="informacion" onclick="alerta()"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion </span>
+
+			<div id="myNav" class="overlay"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <img src="cj2prime.jpg" width="500px" height="500px"></div>
+
 		</div>
+	
 
 	</div>
 
@@ -49,7 +55,8 @@
 		</div>
 
 		<div class="info_box">
-			<p class="informacion" onclick="alerta2()"> descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
+			<div id="myNav" class="overlay"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <img src="cj2prime.jpg" width="500px" height="500px"></div>
 		</div>
 	</div>
 
@@ -67,7 +74,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion" onclick="alerta3()"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
 		</div>
 	</div>
 
@@ -85,7 +92,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
 		</div>
     </div>
 
@@ -103,7 +110,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
 		</div>
     </div>
 
@@ -121,7 +128,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
 		</div>
     </div>
 
@@ -139,7 +146,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
 		</div>
     </div>
 
@@ -157,7 +164,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
 		</div>
     </div>
 
@@ -175,7 +182,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
 		</div>
 	</div>
 
@@ -193,7 +200,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
 		</div>
 	</div>
 
@@ -211,7 +218,7 @@
 		</div>
 
 		<div class="info_box">
-			<p class="descripcion"> Descripcion</p>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
 		</div>
 	</div>
 
@@ -219,76 +226,57 @@
 
 
 
+<div  id="snote8" class="telefono">
+		
+		<div class="img_box">
+		</div>
+
+		<div class="nombre_box">
+			<p class="text_nombre"> samsung s7 plus</p>
+		</div>
+
+		<div class="precio_box">
+			<p class="text_precio"> 25.000.000</p>
+		</div>
+
+		<div class="info_box">
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
+			<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    
+  </div>
+</div>
+
+<div id="j2" class="telefono">
+		
+		<div class="img_box">
+		</div>
+
+		<div class="nombre_box">
+			<p class="text_nombre"> samsung j5 prime</p>
+			
+		</div>
+
+		<div class="precio_box">
+			<p class="text_precio"> 300.000</p>
+		</div>
+
+		<div class="info_box">
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; descripcion</span>
+		</div>
+	</div>
 
 
 <script>
-
-
-
-
-	function alerta(){
-	  window.open("j22.jpg");
-	}
-
-	function alerta2(){
-	  window.open("j5prime.jpg");
-	}
-
-	function alerta3(){
-	  window.open("j7prime.jpg");
-	}
-
-
-
-
-
-
-
-	
-
-	
-var s_ssol 		= 115;
-var s_express 	= 100;
-var s_j2p 		= 130;
-var s_j5 		= 320;
-var s_j5pro 	= 205;
-var s_j7prime 	= 250;
-var s_j7pro 	= 260;
-var s_s7edge 	= 500;
-var s_s8 		= 700;
-var s_s8plus	= 800;
-var s_note8 	= 1000;
-
-
-	function myfunction() {
-
-		alert("SU TASA HOY ES DE 230000");
-		
-var tasa = document.getElementById('tasa').value = 230000;
-
-document.getElementById('yey').innerHTML = (tasa*s_ssol) +" "+ "BSF";
-
-document.getElementById('pj2').innerHTML = (tasa*s_express)+" "+ "BSF";
-document.getElementById('pj2p').innerHTML = (tasa*s_j2p) +" "+ "BSF";
-
-document.getElementById('pj5').innerHTML = (tasa*s_j5) +" "+ "BSF";
-document.getElementById('pj5p').innerHTML = (tasa*s_j5pro) +" "+ "BSF";
-document.getElementById('pj7').innerHTML = (tasa*s_j7prime) +" "+ "BSF";
-
-document.getElementById('pj7p').innerHTML = (tasa*s_j7pro) +" "+ "BSF";
-
-document.getElementById('tss7').innerHTML = (tasa*s_s7edge) +" "+ "BSF";
-document.getElementById('tss8').innerHTML = (tasa*s_s8) +" "+ "BSF";
-document.getElementById('tss8p').innerHTML = (tasa*s_s8plus) +" "+ "BSF";
-document.getElementById('tsnote8').innerHTML = (tasa*s_note8) +" "+ "BSF";
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
 }
 
-
-
-
-
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
 </script>
-
-
+     
 </body>
 </html>
