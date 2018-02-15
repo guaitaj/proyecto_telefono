@@ -26,6 +26,7 @@ body {
 	border-radius: 5px;
 	overflow: hidden;
 	margin-left: 4.5px;
+	margin-top: 5px;
 
 
 }
@@ -34,9 +35,9 @@ body {
 
 
 .img_box{
-	margin-left: 30%;
+	margin-left: 25%;
 
-	margin-top: 5px;
+	margin-top: 10px;
 	position: relative;
 	display: block;
 	width: 90%;
@@ -76,11 +77,18 @@ body {
 	background-color: grey;
 	border-radius: 5px;
 	padding: 5px;
+	cursor: pointer;
+
 
 
 }
 
 .info_box p{
+ color: #fff;
+}
+
+.info_box span{
+ font-size: 13px;
  color: #fff;
 }
 .info_box:hover {
@@ -194,8 +202,25 @@ body {
 	margin-left: 20%;
 }
 
+.overlay-content {
+    position: relative;
+    top: 20%;
+    width: 80%;
+    height: 500px; /*CAMBIAR A AUTO CUANDO SE META CONTENIDO */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid red;
+}
 
-
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
 
 
 
@@ -242,60 +267,14 @@ body {
 
 }
 
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-  
-    overflow-x: hidden;
-    transition: 0.5s;
-    background-color: red;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-
-
 #hh {
-	text-align: center;
-	border: 1px solid black;
+
+	width: 250px;
 }
+
+
+
+
 
 
 
