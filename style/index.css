@@ -26,7 +26,10 @@ body {
 	border-radius: 5px;
 	overflow: hidden;
 	margin-left: 4.5px;
+<<<<<<< HEAD
 	margin-top: 5px;
+=======
+>>>>>>> 84f44461cb0ad7289dfcbe7002ef2acb3163361a
 
 
 }
@@ -35,9 +38,15 @@ body {
 
 
 .img_box{
+<<<<<<< HEAD
 	margin-left: 25%;
 
 	margin-top: 10px;
+=======
+	margin-left: 30%;
+
+	margin-top: 5px;
+>>>>>>> 84f44461cb0ad7289dfcbe7002ef2acb3163361a
 	position: relative;
 	display: block;
 	width: 90%;
@@ -267,6 +276,7 @@ body {
 
 }
 
+<<<<<<< HEAD
 #hh {
 
 	width: 250px;
@@ -275,6 +285,54 @@ body {
 
 
 
+=======
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: red;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+
+#hh {
+	text-align: center;
+	border: 1px solid black;
+}
+>>>>>>> 84f44461cb0ad7289dfcbe7002ef2acb3163361a
 
 
 

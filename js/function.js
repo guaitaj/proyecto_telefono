@@ -5,6 +5,7 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
+<<<<<<< HEAD
 }
 
 
@@ -27,3 +28,6 @@ function closeNav3() {
 
 
 
+=======
+}
+>>>>>>> 84f44461cb0ad7289dfcbe7002ef2acb3163361a
