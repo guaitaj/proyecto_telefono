@@ -26,10 +26,6 @@ body {
 	border-radius: 5px;
 	overflow: hidden;
 	margin-left: 4.5px;
-<<<<<<< HEAD
-	margin-top: 5px;
-=======
->>>>>>> 84f44461cb0ad7289dfcbe7002ef2acb3163361a
 
 
 }
@@ -38,15 +34,9 @@ body {
 
 
 .img_box{
-<<<<<<< HEAD
-	margin-left: 25%;
-
-	margin-top: 10px;
-=======
 	margin-left: 30%;
 
 	margin-top: 5px;
->>>>>>> 84f44461cb0ad7289dfcbe7002ef2acb3163361a
 	position: relative;
 	display: block;
 	width: 90%;
@@ -276,16 +266,6 @@ body {
 
 }
 
-<<<<<<< HEAD
-#hh {
-
-	width: 250px;
-}
-
-
-
-
-=======
 .overlay {
     height: 100%;
     width: 0;
@@ -332,7 +312,6 @@ body {
 	text-align: center;
 	border: 1px solid black;
 }
->>>>>>> 84f44461cb0ad7289dfcbe7002ef2acb3163361a
 
 
 
