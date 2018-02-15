@@ -34,7 +34,7 @@ body {
 
 
 .img_box{
-	margin-left: 30%;
+	margin-left: 20%;
 
 	margin-top: 5px;
 	position: relative;
@@ -103,7 +103,6 @@ body {
 .box {
 	margin: 30px;
 	text-align: center;
-	border: 1px solid red;
 }
 
 #cuadro_principal {
@@ -209,7 +208,7 @@ body {
     margin: 0 auto;
     text-align: center;
     margin-top: 30px;
-    border: 1px solid red;
+ 
 }
 
 .overlay a {
